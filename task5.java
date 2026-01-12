@@ -52,7 +52,9 @@ class Main {
         s.append(20);
         System.out.println("----After appending 20 -----");
         s.currstateStack();
-        
+         s.append(10);
+        System.out.println("----After appending 10 -----");
+        s.currstateStack();
         s.pop();
          System.out.println("----After pop operation-----");
         s.currstateStack();
